@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="João Marcelo Dias de Jesus">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <div id="modo">
+            <div id="claro" onclick="modoClaro()">
+                <img src="img/dia.jpg" alt="modo claro">
+            </div>
+            <div id="escuro"  onclick="modoEscuro()">
+                <img src="img/noite.jpg" alt="modo escuro">
+            </div>
+        </div>
+    </header>
+
+    <section id="titulo">
+        <h1>Calculadora</h1>
+    </section>
+
+    <section id="cessao">
+        <form action="#" id="calculadora">
+            <table>
+                <tr>
+                    <td><label for="n1">1º número:</label></td>
+                    <td><input type="text" id="n1" required></td>
+                </tr>
+                <tr>
+                    <td><label for="selecao">Operação:</label></td>
+                    <td><select id="selecao">
+                        <option selected="true" disabled></option>
+                        <option value="mais">+</option>
+                        <option value="menos">-</option>
+                        <option value="vezes">x</option>
+                        <option value="dividir">/</option>
+                    </select></td> 
+                </tr>
+                <tr>
+                    <td><label for="n2">2º número:</label></td>
+                    <td><input type="text" id="n2" required></td>
+                 </tr>    
+            </table>
+            <br>
+            <button onclick="calcular();">Calcular</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+/* Geral --------------------------------------------*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    height: auto;
+}
+
+/* Modo Escuro --------------------------------------*/
+#modo{
+    display: flex;
+    justify-content: end;
+}
+#claro{
+    display: none;
+}
+#claro, #escuro > img{ 
+    height: 50px;
+}
+
+/* Titulo -------------------------------------------*/
+#titulo{
+    text-align: center;
+    padding: 1%;
+}
+
+/* Calculadora --------------------------------------*/
+#cessao{
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#calculadora{
+    border: 2px solid black;
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+}
+#n1{
+    width: 60px;
+}
+#n2{
+    width: 60px;
+}
+#selecao{
+    width: 60px;
+}
+
+
+
